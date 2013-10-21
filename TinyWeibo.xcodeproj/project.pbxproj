@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186AD59E1815914A003FB53F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186AD59D1815914A003FB53F /* Foundation.framework */; };
+		186AD5A01815914A003FB53F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186AD59F1815914A003FB53F /* CoreGraphics.framework */; };
+		186AD5A21815914A003FB53F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186AD5A11815914A003FB53F /* UIKit.framework */; };
+		186AD5A81815914A003FB53F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186AD5A61815914A003FB53F /* InfoPlist.strings */; };
+		186AD5AA1815914A003FB53F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AD5A91815914A003FB53F /* main.m */; };
+		186AD5AE1815914A003FB53F /* TWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AD5AD1815914A003FB53F /* TWAppDelegate.m */; };
+		186AD5B01815914A003FB53F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186AD5AF1815914A003FB53F /* Images.xcassets */; };
+		186AD5B71815914A003FB53F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186AD5B61815914A003FB53F /* XCTest.framework */; };
+		186AD5B81815914A003FB53F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186AD59D1815914A003FB53F /* Foundation.framework */; };
+		186AD5B91815914A003FB53F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186AD5A11815914A003FB53F /* UIKit.framework */; };
+		186AD5C11815914A003FB53F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186AD5BF1815914A003FB53F /* InfoPlist.strings */; };
+		186AD5C31815914A003FB53F /* TinyWeiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AD5C21815914A003FB53F /* TinyWeiboTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		186AD5BA1815914A003FB53F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186AD5921815914A003FB53F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186AD5991815914A003FB53F;
+			remoteInfo = TinyWeibo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186AD59A1815914A003FB53F /* TinyWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186AD59D1815914A003FB53F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		186AD59F1815914A003FB53F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		186AD5A11815914A003FB53F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		186AD5A51815914A003FB53F /* TinyWeibo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TinyWeibo-Info.plist"; sourceTree = "<group>"; };
+		186AD5A71815914A003FB53F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		186AD5A91815914A003FB53F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		186AD5AB1815914A003FB53F /* TinyWeibo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TinyWeibo-Prefix.pch"; sourceTree = "<group>"; };
+		186AD5AC1815914A003FB53F /* TWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWAppDelegate.h; sourceTree = "<group>"; };
+		186AD5AD1815914A003FB53F /* TWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWAppDelegate.m; sourceTree = "<group>"; };
+		186AD5AF1815914A003FB53F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		186AD5B51815914A003FB53F /* TinyWeiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyWeiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186AD5B61815914A003FB53F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		186AD5BE1815914A003FB53F /* TinyWeiboTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TinyWeiboTests-Info.plist"; sourceTree = "<group>"; };
+		186AD5C01815914A003FB53F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		186AD5C21815914A003FB53F /* TinyWeiboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinyWeiboTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186AD5971815914A003FB53F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186AD5A01815914A003FB53F /* CoreGraphics.framework in Frameworks */,
+				186AD5A21815914A003FB53F /* UIKit.framework in Frameworks */,
+				186AD59E1815914A003FB53F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186AD5B21815914A003FB53F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186AD5B71815914A003FB53F /* XCTest.framework in Frameworks */,
+				186AD5B91815914A003FB53F /* UIKit.framework in Frameworks */,
+				186AD5B81815914A003FB53F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186AD5911815914A003FB53F = {
+			isa = PBXGroup;
+			children = (
+				186AD5A31815914A003FB53F /* TinyWeibo */,
+				186AD5BC1815914A003FB53F /* TinyWeiboTests */,
+				186AD59C1815914A003FB53F /* Frameworks */,
+				186AD59B1815914A003FB53F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		186AD59B1815914A003FB53F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186AD59A1815914A003FB53F /* TinyWeibo.app */,
+				186AD5B51815914A003FB53F /* TinyWeiboTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		186AD59C1815914A003FB53F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				186AD59D1815914A003FB53F /* Foundation.framework */,
+				186AD59F1815914A003FB53F /* CoreGraphics.framework */,
+				186AD5A11815914A003FB53F /* UIKit.framework */,
+				186AD5B61815914A003FB53F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		186AD5A31815914A003FB53F /* TinyWeibo */ = {
+			isa = PBXGroup;
+			children = (
+				186AD5AC1815914A003FB53F /* TWAppDelegate.h */,
+				186AD5AD1815914A003FB53F /* TWAppDelegate.m */,
+				186AD5AF1815914A003FB53F /* Images.xcassets */,
+				186AD5A41815914A003FB53F /* Supporting Files */,
+			);
+			path = TinyWeibo;
+			sourceTree = "<group>";
+		};
+		186AD5A41815914A003FB53F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				186AD5A51815914A003FB53F /* TinyWeibo-Info.plist */,
+				186AD5A61815914A003FB53F /* InfoPlist.strings */,
+				186AD5A91815914A003FB53F /* main.m */,
+				186AD5AB1815914A003FB53F /* TinyWeibo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		186AD5BC1815914A003FB53F /* TinyWeiboTests */ = {
+			isa = PBXGroup;
+			children = (
+				186AD5C21815914A003FB53F /* TinyWeiboTests.m */,
+				186AD5BD1815914A003FB53F /* Supporting Files */,
+			);
+			path = TinyWeiboTests;
+			sourceTree = "<group>";
+		};
+		186AD5BD1815914A003FB53F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				186AD5BE1815914A003FB53F /* TinyWeiboTests-Info.plist */,
+				186AD5BF1815914A003FB53F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		186AD5991815914A003FB53F /* TinyWeibo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186AD5C61815914A003FB53F /* Build configuration list for PBXNativeTarget "TinyWeibo" */;
+			buildPhases = (
+				186AD5961815914A003FB53F /* Sources */,
+				186AD5971815914A003FB53F /* Frameworks */,
+				186AD5981815914A003FB53F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyWeibo;
+			productName = TinyWeibo;
+			productReference = 186AD59A1815914A003FB53F /* TinyWeibo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		186AD5B41815914A003FB53F /* TinyWeiboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186AD5C91815914A003FB53F /* Build configuration list for PBXNativeTarget "TinyWeiboTests" */;
+			buildPhases = (
+				186AD5B11815914A003FB53F /* Sources */,
+				186AD5B21815914A003FB53F /* Frameworks */,
+				186AD5B31815914A003FB53F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186AD5BB1815914A003FB53F /* PBXTargetDependency */,
+			);
+			name = TinyWeiboTests;
+			productName = TinyWeiboTests;
+			productReference = 186AD5B51815914A003FB53F /* TinyWeiboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		186AD5921815914A003FB53F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TW;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = luoshikai;
+				TargetAttributes = {
+					186AD5B41815914A003FB53F = {
+						TestTargetID = 186AD5991815914A003FB53F;
+					};
+				};
+			};
+			buildConfigurationList = 186AD5951815914A003FB53F /* Build configuration list for PBXProject "TinyWeibo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 186AD5911815914A003FB53F;
+			productRefGroup = 186AD59B1815914A003FB53F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186AD5991815914A003FB53F /* TinyWeibo */,
+				186AD5B41815914A003FB53F /* TinyWeiboTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186AD5981815914A003FB53F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186AD5A81815914A003FB53F /* InfoPlist.strings in Resources */,
+				186AD5B01815914A003FB53F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186AD5B31815914A003FB53F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186AD5C11815914A003FB53F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186AD5961815914A003FB53F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186AD5AA1815914A003FB53F /* main.m in Sources */,
+				186AD5AE1815914A003FB53F /* TWAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186AD5B11815914A003FB53F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186AD5C31815914A003FB53F /* TinyWeiboTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		186AD5BB1815914A003FB53F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186AD5991815914A003FB53F /* TinyWeibo */;
+			targetProxy = 186AD5BA1815914A003FB53F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		186AD5A61815914A003FB53F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186AD5A71815914A003FB53F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		186AD5BF1815914A003FB53F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186AD5C01815914A003FB53F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		186AD5C41815914A003FB53F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		186AD5C51815914A003FB53F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		186AD5C71815914A003FB53F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TinyWeibo/TinyWeibo-Prefix.pch";
+				INFOPLIST_FILE = "TinyWeibo/TinyWeibo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		186AD5C81815914A003FB53F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TinyWeibo/TinyWeibo-Prefix.pch";
+				INFOPLIST_FILE = "TinyWeibo/TinyWeibo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		186AD5CA1815914A003FB53F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TinyWeibo.app/TinyWeibo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TinyWeibo/TinyWeibo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TinyWeiboTests/TinyWeiboTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		186AD5CB1815914A003FB53F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TinyWeibo.app/TinyWeibo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TinyWeibo/TinyWeibo-Prefix.pch";
+				INFOPLIST_FILE = "TinyWeiboTests/TinyWeiboTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186AD5951815914A003FB53F /* Build configuration list for PBXProject "TinyWeibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186AD5C41815914A003FB53F /* Debug */,
+				186AD5C51815914A003FB53F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186AD5C61815914A003FB53F /* Build configuration list for PBXNativeTarget "TinyWeibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186AD5C71815914A003FB53F /* Debug */,
+				186AD5C81815914A003FB53F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		186AD5C91815914A003FB53F /* Build configuration list for PBXNativeTarget "TinyWeiboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186AD5CA1815914A003FB53F /* Debug */,
+				186AD5CB1815914A003FB53F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 186AD5921815914A003FB53F /* Project object */;
+}
